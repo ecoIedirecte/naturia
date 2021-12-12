@@ -1,1 +1,102 @@
-Site en creation
+<!DOCTYPE html>
+<html lang="" dir="ltr">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="https://www.zupimages.net/up/21/44/51tf.png">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap" rel="stylesheet">
+
+    <meta charset="utf-8">
+    <title>Discraft - Serveur PvP faction</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+<div class="header" id="CeHeader"
+  <div class="inheader">
+    <div class="logo">
+      <img id="logoe" src="https://zupimages.net/up/21/49/j4mv.png" alt="logo">
+        <a id="play" href="index.html">JOUER</a>
+        <a id="discord" href="https://discord.gg/DJkWPKGS">RÈGLEMENT</a>
+        <a id="shop" href="shop.html">SUPPORT</a>
+        <a id="news" href="news.html">BOUTIQUE</a>
+
+
+    </div>
+
+</div>
+</div>
+
+  <img class="titleimage" src="https://zupimages.net/up/21/49/5mxe.png" alt="">
+<div class="backround">
+  <h1 id="discover" >la nature n'attend plus que vous sur notre serveur Minecraft!</h1>
+  <a id="join" href="#title">REJOINDRE</a>
+</div>
+<script>
+// When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// Get the header
+var header = document.getElementById("CeHeader");
+
+// Get the offset position of the navbar
+var sticky = header.offsetTop;
+
+// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+<script>
+function dec() {
+$(window).on("scroll", function() {
+    if (window).scrollTop() > 50) {
+        header.addClass("active");
+    } else {
+        //remove the background property so it comes transparent again (defined in your css)
+       (".header").removeClass("active");
+    }
+});
+}
+</script>
+<section id=joinsec>
+  <h1 id="title" ><br>NOUS REJOINDRE</h1>
+  <h2 id="subtitle" ><br>Le serveur est en mise à jour!<br>Rejoin le serveur discrord pour ne rien manquer</h1>
+  <button id="maj">
+    DISCORD
+  </button>
+    <!--<div class="dip">
+  <img id="ip" src="https://www.zupimages.net/up/21/44/ykdr.png" alt="v1discraft.aternos.me">
+</div>
+<div class="copy2">
+<p id="copy">v1discraft.aternos.me</p>
+<button type="button" onclick="copyEvent('copy')" >Copier</button>-->
+</div>
+</section>
+<!--<script>
+    function copyEvent(id)
+    {
+        var str = document.getElementById(id);
+        window.getSelection().selectAllChildren(str);
+        document.execCommand("Copy")
+    }
+</script>-->
+<section id=aide>
+  <h1 id="aide-title">Discraft, c'est...</h1>
+  <h2 id="aide-subtitle">Discraft est un serveur pvp faction en survie hyper amusant ! </br>
+Tu peux créer ta propre faction, tu peux ajouter des claims à ta faction, inviter des joueurs, expulser les mauvais joueurs de ta faction enfin bref tu contrôle TOUTE ta faction.</br>
+Tu pourras aussi attaquer les autres factions avec les membres de ta faction</h2>
+</section>
+<section id="footer">
+<div class=discraftclass>
+<h1 id="discraftname">Discraft</h1>
+<h1 id="discraftnamesubtitle">v1discraft.aternos.me</h1>
+</div>
+</section>
+  </body>
+</html>

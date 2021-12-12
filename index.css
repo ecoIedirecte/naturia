@@ -1,0 +1,377 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url("https://zupimages.net/up/21/49/xdow.png");
+  background-repeat: no-repeat;
+  transition: .3s ease;
+  background-size: 100%;
+}
+
+section{
+  background-color: blue;
+  width: 100%;
+  height: 100%
+}
+
+
+body{
+
+  animation: fadeIn 2s;
+-webkit-animation: fadeIn 2s;
+-moz-animation: fadeIn 2s;
+-o-animation: fadeIn 2s;
+-ms-animation: fadeIn 2s;
+
+}
+@keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+
+
+* {margin:0;padding:0}
+
+.titleimage{
+    margin-top: 113px;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.header{
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+   padding: 0;
+     z-index: 10000;
+     transition: all 0.2s ease-in-out;
+     height: auto;
+     background-color:transparent;
+
+     text-align: center;
+     line-height: 40px;
+/*  box-shadow: 0px 10px 16px 0px rgba(0,0,0,0.42);
+-webkit-box-shadow: 0px 10px 16px 0px rgba(0,0,0,0.42);
+-moz-box-shadow: 0px 10px 16px 0px rgba(0,0,0,0.42);*/
+}
+
+.active {
+    background: #fff;
+    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+}
+
+
+.logo{
+  text-align: center;
+}
+
+#logoe{
+filter: drop-shadow(0.25rem 0.25rem 0.55rem black);
+  margin-top: 20px;
+  width: 65px;
+  height: 65px;
+  margin-left: 1px
+}
+
+#play{
+  animation: fadeIn 3s;
+-webkit-animation: fadeIn 3s;
+-moz-animation: fadeIn 3s;
+-o-animation: fadeIn 3s;
+-ms-animation: fadeIn 3s;
+  font-size: 20px;
+   font-family: 'Lilita One', cursive;;
+   vertical-align: 32px;
+   text-decoration: none;
+   color: white;
+   background: black;
+   padding: 5px 10px;
+   border-radius: 5px;
+}
+
+#play:hover{
+  font-size: 19px;
+   font-family: 'Lilita One', cursive;;
+   vertical-align: 32px;
+   text-decoration: none;
+   color: white;
+   background: black;
+   padding: 5px 10px;
+   border-radius: 5px;
+   border-style: outset;
+   border-color: black;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+#discord{
+  animation: fadeIn 4s;
+-webkit-animation: fadeIn 4s;
+-moz-animation: fadeIn 4s;
+-o-animation: fadeIn 4s;
+-ms-animation: fadeIn 4s;
+  font-size: 20px;
+   font-family: 'Lilita One', cursive;;
+   margin-left: 10px;
+   vertical-align: 32px;
+   text-decoration: none;
+   color: black;
+   padding: 5px 10px;
+   border-radius: 5px;
+}
+
+#discord:hover{
+  font-size: 19px;
+   font-family: 'Lilita One', cursive;;
+   margin-left: 10px;
+   vertical-align: 32px;
+   text-decoration: none;
+   color: black;
+   padding: 5px 10px;
+   border-radius: 5px;
+   border-style: outset;
+   border-color: black
+}
+
+#shop{
+  animation: fadeIn 5s;
+-webkit-animation: fadeIn 5s;
+-moz-animation: fadeIn 5s;
+-o-animation: fadeIn 5s;
+-ms-animation: fadeIn 5s;
+  font-size: 20px;
+   font-family: 'Lilita One', cursive;;
+   margin-left: 10px;
+   vertical-align: 32px;
+   text-decoration: none;
+   color: black;
+   padding: 5px 10px;
+   border-radius: 5px;
+}
+
+#shop:hover{
+  font-size: 19px;
+   font-family: 'Lilita One', cursive;;
+   margin-left: 10px;
+   vertical-align: 32px;
+   text-decoration: none;
+   color: black;
+   padding: 5px 10px;
+   border-radius: 5px;
+   border-style: outset;
+   border-color: black
+}
+
+#news{
+  animation: fadeIn 6s;
+-webkit-animation: fadeIn 6s;
+-moz-animation: fadeIn 6s;
+-o-animation: fadeIn 6s;
+-ms-animation: fadeIn 6s;
+  font-size: 20px;
+   font-family: 'Lilita One', cursive;;
+   vertical-align: 32px;
+   text-decoration: none;
+   color: black;
+   padding: 5px 10px;
+   border-radius: 5px;
+}
+
+#news:hover{
+  font-size: 19px;
+   font-family: 'Lilita One', cursive;;
+   margin-left: 10px;
+   vertical-align: 32px;
+   text-decoration: none;
+   color: black;
+   padding: 5px 10px;
+   border-radius: 5px;
+   border-style: outset;
+   border-color: black
+}
+
+#discover{
+  font-size: 35px;
+  position: absolute;
+  top: 320px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#join {
+ display: inline-block;
+padding: 0.9rem 1.8rem;
+ font-size: 20px;
+ font-weight: 700;
+ color: black;
+ border: 3px solid black;
+ cursor: pointer;
+ position: absolute;
+ background-color: transparent;
+ text-decoration: none;
+ overflow: hidden;
+ top: 450px;
+ left: 45%;
+ text-align: center;
+ z-index: 1;
+ font-family: inherit;
+ border-radius: 9px;
+ font-family: 'Lilita One', cursive;;
+
+
+}
+
+#join::before {
+ content: "";
+ position: absolute;
+ left: 0;
+ top: 0;
+ width: 100%;
+ height: 100%;
+ background-color: rgb(121, 255, 0);
+ transform: translateX(-100%);
+ transition: all .3s;
+ z-index: -1;
+}
+
+#join:hover::before {
+ transform: translateX(0);
+}
+
+.backround{
+  text-align: center
+}
+
+#joini{
+  font-family: 'Rubik Mono One', sans-serif;
+  position: absolute;
+  top: 500px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+  background-color: rgb(121,255,0);
+  color: black;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 30px
+}
+
+.backround{
+  width: calc(100% - 40px);
+   max-width: 1000px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+#maj{
+  display: flex;
+  justify-content: center;
+}
+
+#joinsec{
+border-radius: 9px;
+background-color: rgb(121,255,0);
+position: relative;
+width: 100%;
+height: 290px;
+margin-top: 380px;
+transition: .3s ease;
+}
+
+.sticky {
+  background-image: url("https://cdn-longterm.mee6.xyz/plugins/welcome/images/909393129176707093/05e6627a867242d6bc217816fbf5dd7aa4205073802e3a8b4696e8762a479eca.jpeg");
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 0px 10px 16px 0px rgba(0,0,0,0.42);
+  -webkit-box-shadow: 0px 10px 16px 0px rgba(0,0,0,0.42);
+  -moz-box-shadow: 0px 10px 16px 0px rgba(0,0,0,0.42);
+}
+
+#title{
+  font-family: 'Lilita One', cursive;;
+  font-size: 30px;
+  text-align: center;
+}
+
+#subtitle{
+  font-family: arial;
+  font-size: 20px;
+  text-align: center;
+}
+
+.dip{
+  text-align: center
+}
+
+.copy2{
+  text-align: center;
+  font-size: 0;
+}
+
+#aide{
+  background-color: white;
+  width: 100%;
+  height: 180px;
+  transition: .3s ease;
+}
+
+#aide-title{
+  font-family: 'Rubik Mono One', sans-serif;
+  margin-bottom: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+#aide-subtitle{
+  font-family: arial;
+  font-size: 20px;
+  text-align: center;
+}
+
+#footer{
+  height: 70px;
+  display: block;
+  background: black;
+}
+
+.discraftclass{
+  color: white;
+  font-family: 'Rubik Mono One', sans-serif;
+  text-align: center
+}
+
+#discraftnamesubtitle{
+  font-family: arial;
+  font-size: 18px
+}
